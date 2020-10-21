@@ -7,8 +7,8 @@ Use the package manager (composer and npm) for installing
 
 1. Do the following commands for installing
 ```bash
-git clone https://github.com/AdamRoxann/laravel_pos.git
-cd laravel_pos
+git clone https://github.com/AdamRoxann/Laravel_Pos.git
+cd Laravel_Pos
 composer install
 npm install
 copy .env.example .env
