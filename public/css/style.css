@@ -609,7 +609,7 @@ code {
   height: 2.5em;
   line-height: 2.5em;
   border-radius: 50%;
-  -webkit-mask-image: none;
+  /* -webkit-mask-image: none; */
 }
 
 .waves-input-wrapper {
@@ -637,6 +637,7 @@ code {
   right: 0;
   top: 0;
   z-index: 999;
+  background-color: #300D41;
 }
 
 .topbar .topbar-left {
@@ -653,7 +654,7 @@ code {
 }
 
 .topbar .navbar-custom {
-  background-color: #424858;
+  background-color: #300D41;
   border: none;
   -webkit-box-shadow: 0 0 0.25rem rgba(108, 118, 134, 0.1);
           box-shadow: 0 0 0.25rem rgba(108, 118, 134, 0.1);
@@ -684,7 +685,7 @@ code {
 }
 
 .button-menu-mobile {
-  background-color: #424858;
+  background-color: #300D41;
   font-size: 24px;
   color: #ffffff;
   width: 60px;
@@ -1402,6 +1403,12 @@ body.fixed-left .side-menu.left {
   border: 1px solid #fdba45;
 }
 
+.btn-tnb {
+  background-color: #300D41;
+  border: 1px solid #300D41;
+  color: white;
+}
+
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active,
 .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover,
 .open > .dropdown-toggle.btn-warning, .btn-outline-warning.active, .btn-outline-warning:active,
@@ -1417,6 +1424,13 @@ body.fixed-left .side-menu.left {
 .btn-warning:not(:disabled):not(.disabled).active:focus, .btn-warning:not(:disabled):not(.disabled):active:focus, .show > .btn-warning.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 2px rgba(253, 186, 69, 0.3);
   box-shadow: 0 0 0 2px rgba(253, 186, 69, 0.3);
+}
+
+.btn-tnb.focus, .btn-tnb:focus, .btn-outline-tnb.focus, .btn-outline-tnb:focus,
+.btn-tnb:not(:disabled):not(.disabled).active:focus, .btn-tnb:not(:disabled):not(.disabled):active:focus, .show > .btn-tnb.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(253, 186, 69, 0.3);
+  box-shadow: 0 0 0 2px rgba(253, 186, 69, 0.3);
+  color: gold;
 }
 
 .btn-danger {
@@ -2866,7 +2880,7 @@ table.focus-on tbody tr.focused td {
   border-radius: 0.25em;
   color: #ffffff;
   display: inline-block;
-  float: right;
+  /* float: right; */
   font-size: 14px;
   padding: .8em 1em;
 }

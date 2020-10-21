@@ -10,12 +10,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name='csrf-token' content="{{ csrf_token() }}">
 
-        <link rel="shortcut icon" href="{{asset('/images/favicon.ico')}}">
+        <link rel="shortcut icon" href="{{asset('/images/favicon.png')}}">
 
         <link href="{{asset('/css/app.css')}}" rel="stylesheet" type="text/css">
         <link href="{{asset('/css/icons.css')}}" rel="stylesheet" type="text/css">
         <link href="{{asset('/css/style.css')}}" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="{{ asset('/plugins/morris/morris.css') }}">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <style>
+            #preloader {
+                position: fixed;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 9999;
+			background: url({{asset('Preloader_2.gif')}}) center no-repeat #fff;
+            }
+        </style>
     </head>
 
 
@@ -23,15 +35,6 @@
 
         <!-- Loader -->
         <div id="preloader">
-            <div id="status">
-                <div class="spinner">
-                    <div class="rect1"></div>
-                    <div class="rect2"></div>
-                    <div class="rect3"></div>
-                    <div class="rect4"></div>
-                    <div class="rect5"></div>
-                </div>
-            </div>
         </div>
 
         <!-- Begin page -->
@@ -61,6 +64,14 @@
         <!-- App js -->
         <script src="{{mix('/js/app.js')}}"></script>
         <script src="{{asset('/js/app_template.js')}}"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            $(window).load(function() {
+		// Animate loader off screen
+			$(".se-pre-con").fadeOut("slow");;
+			});
+        </script>
 
     </body>
 </html>

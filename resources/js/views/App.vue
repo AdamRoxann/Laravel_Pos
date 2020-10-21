@@ -9,7 +9,7 @@
                 <div class="left-side-logo d-block d-lg-none">
                     <div class="text-center">
                         
-                        <router-link to="/admin" class="logo"><img src="/images/logo_dark.png" height="20" alt="logo"></router-link>
+                        <router-link to="/admin" class="logo"><img src="/images/logoPos.png" height="60" alt="logo"></router-link>
                     </div>
                 </div>
 
@@ -93,7 +93,7 @@
                 </div> <!-- content -->
 
                 <footer class="footer" v-if="$route.meta.pageType != 'auth'">
-                    © 2019 <a href="https://zuramai.net">Zuramai Network</a> <span class="d-none d-md-inline-block"> - Crafted with <i class="mdi mdi-heart text-danger"></i> by Ahmad Saugi.</span>
+                    Copyright ©2020 All rights reserved | Adam Roxann Irsyad
                 </footer>
 
             </div>

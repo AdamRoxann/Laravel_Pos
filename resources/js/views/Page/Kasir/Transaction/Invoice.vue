@@ -43,7 +43,7 @@
                                                     <div class="invoice-title">
                                                         <h4 class="float-right font-16"><strong>Order # {{ data_order.id }}</strong></h4>
                                                         <h3 class="m-t-0">
-                                                            <img src="/images/logo3.png" alt="logo" height="28"/>
+                                                            <img src="/images/logoPos.png" alt="logo" height="50"/>
                                                         </h3>
                                                     </div>
                                                     <hr>
@@ -113,7 +113,7 @@
                                                                         <td class="no-line"></td>
                                                                         <td class="no-line text-center">
                                                                             <strong>PPN</strong></td>
-                                                                        <td class="no-line text-right">Rp {{  numberFormat(totalPPN) }} </span></td>
+                                                                        <td class="no-line text-right">Rp {{  numberFormat(totalPPN) }}</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="thick-line"></td>

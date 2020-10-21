@@ -4,7 +4,7 @@
         
         <div class="topbar-left	d-none d-lg-block">
             <div class="text-center">
-                <a href="/admin" class="logo"><img src="/images/logo2.png" height="22" alt="logo"></a>
+                <a href="/admin" class="logo"><img src="/images/logoPos2.png" height="50" alt="logo"></a>
             </div>
         </div>
 

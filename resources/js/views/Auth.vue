@@ -1,13 +1,16 @@
 <template>
+<div data-aos="fade-down" data-aos-duration="2000">
     <div class="container mt-5">
         <div class="row align-items-center">
             <div class="col-lg-6 offset-lg-3 col-12">
                 <div class="card mb-0">
                     <div class="card-body">
                         <div class="p-2">
-                            <h4 class="text-muted float-right font-18 mt-4">Sign In</h4>
+                            <!-- <h4 class="text-muted float-right font-18 mt-4">Sign In</h4> -->
                             <div>
-                                <a href="index.html" class="logo logo-admin"><img src="/images/logo3.png" height="28" alt="logo"></a>
+                                <center>
+                                <a href="index.html" class="logo logo-admin"><img src="/images/logoPos.png" height="100" alt="logo"></a>
+                                </center>
                             </div>
                         </div>
 
@@ -45,7 +48,7 @@
 
                                 <div class="form-group text-center row m-t-20">
                                     <div class="col-12">
-                                            <button class="btn btn-primary btn-block waves-effect waves-light"  :disabled="button_loading==true" type="submit">
+                                            <button style="backround-color: #300D41;" class="btn btn-tnb btn-block waves-effect waves-light"  :disabled="button_loading==true" type="submit">
                                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" v-if="button_loading==true"></span>
                                                     Login
                                             </button>
@@ -60,6 +63,7 @@
             </div>
         </div>
         <!-- end row -->
+    </div>
     </div>
 </template>
 <script>

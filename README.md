@@ -7,8 +7,8 @@ Use the package manager (composer and npm) for installing
 
 1. Do the following commands for installing
 ```bash
-git clone https://github.com/zuramai/laravel-vue-pos.git
-cd laravel-vue-pos
+git clone https://github.com/AdamRoxann/laravel_pos.git
+cd laravel_pos
 composer install
 npm install
 copy .env.example .env

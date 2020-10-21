@@ -10,7 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name='csrf-token' content="{{ csrf_token() }}">
 
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="assets/images/favicon.png">
 
         <link href="{{asset('/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
         <link href="{{asset('/css/icons.css')}}" rel="stylesheet" type="text/css">
